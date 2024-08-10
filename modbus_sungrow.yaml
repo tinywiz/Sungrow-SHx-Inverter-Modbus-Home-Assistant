@@ -2336,19 +2336,19 @@ input_number:
   set_sg_forced_charge_discharge_power:
     name: Set forced charge discharge power in W
     min: 0
-    max: 5000 # change this value according to the capability of your battery
+    max: 9600 # change this value according to the capability of your battery
     step: 100
 
   set_sg_battery_max_charge_power:
     name: Set max battery charge power in W
     min: 100
-    max: 5000 # change this value according to the capability of your battery
+    max: 9600 # change this value according to the capability of your battery
     step: 100
 
   set_sg_battery_max_discharge_power:
     name: Set max battery discharge power in W
     min: 100
-    max: 5000 # change this value according to the capability of your battery
+    max: 9600 # change this value according to the capability of your battery
     step: 100
 
   # This threshold is compared against the currently achievable charging power, not just against the currently available surplus.
@@ -2358,13 +2358,13 @@ input_number:
   set_sg_battery_charging_start_power:
     name: Set battery charging start power in W
     min: 0
-    max: 1000
+    max: 9600
     step: 10
 
   set_sg_battery_discharging_start_power:
     name: Set battery discharging start power in W
     min: 0
-    max: 1000
+    max: 9600
     step: 10
 
   set_sg_export_power_limit:
